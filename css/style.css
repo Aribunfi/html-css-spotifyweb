@@ -1,0 +1,30 @@
+.side-nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: #080b12;
+    display: flex;
+    justify-content: right;
+}
+
+main {
+    background-color: #141922;
+    color: white;
+}
+
+.hr-nav > ul > li {
+    color: #4f5258;
+}
+
+footer {
+    background-color: #282828;
+    color: white;
+}

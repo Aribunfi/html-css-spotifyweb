@@ -3,11 +3,10 @@
     color: white;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
-
 body {
-    display: flex;
     font-family: Montserrat;
 }
 
@@ -18,9 +17,8 @@ body {
 ul {
     list-style-type: none;
     font-family: Montserrat;
-        font-weight: bold;
+    font-weight: bold;
 }
-
 
 
 header {
@@ -48,10 +46,19 @@ transform: scale(1.5)
 main {
     background-color: #141922;
     color: white;
-    width: 85%;
-    justify-content: center;
+    width: 80%;
+    float: right;
+    z-index: 1;
         
 }
+
+
+
+.main-content {
+    display: flex;
+}
+
+
 
 .main-top {
     display: flex;
@@ -74,15 +81,15 @@ main {
 }
 
 .left-column {
-    display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 20%;
     background-color: black;
 }
 
 
 .hr-nav {
     justify-content: center;
+    display: inline;
 
 }
 

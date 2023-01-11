@@ -20,7 +20,27 @@ main {
     background-color: #141922;
     color: white;
     width: 85%;
+        
+}
+
+.main-top {
+    display: flex;
     
+}
+
+.display-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-mix {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-popular {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .left-column {
@@ -29,12 +49,11 @@ main {
     width: 15%;
 }
 
-.hr-nav {
-    flex-direction: row;
-}
+
 
 .hr-nav > ul > li {
     color: #4f5258;
+    display: inline;
 }
 
 footer {

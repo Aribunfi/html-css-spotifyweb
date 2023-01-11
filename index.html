@@ -8,30 +8,41 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utils.css">
+    
 </head>
 <body>
-    <nav class="side-nav">
-        <ul>
-            <li>Home</li>
-            <li>Cerca</li>
-            <li>La tua libreria</li>
-            <h1>PLAYLIST</h1>
-            <li>Crea Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-        </ul>
-    </nav>
 
-    <header>
-        <button>EFFETTUA L'UPGRADE</button>
-    </header>
+    <div class="left-column">
+        <nav class="side-nav">
+            <ul>
+                <li>Home</li>
+                <li>Cerca</li>
+                <li>La tua libreria</li>
+                <h1>PLAYLIST</h1>
+                <li>Crea Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+                <li>Nome Playlist</li>
+            </ul>
+                <span></span>
+                <h6>Installa app</h6>
+                <span></span>
+                <h6>John Doe</h6>
+        </nav>
     
+           
+    </div>
+
+  
     <main>
+        <header>
+            <button>EFFETTUA L'UPGRADE</button>
+        </header>
+
         <nav class="hr-nav">
             <ul>
                 <li>IN EVIDENZA</li>
@@ -79,28 +90,56 @@
         <h1>Creato per John Doe</h1>
         <h3>Più ascolti, più accurati saranno i suggerimenti.</h3>
 
-            <card>
+            <div class="card">
                 <img src="img/radar.jpeg" alt="">
                 <h5>Release Radar</h5>
-            </card>
-            <card>
+            </div>
+            <div class="card">
                 <img src="img/mixdaily.jpeg" alt="">
-            </card>
+            </div>
 
         <h1>Artisti più popolari</h1>
         <h3>Più ascolti, più accurati saranno i suggerimenti.</h3>
-            <div class="card">
+            <div class="card" id="artist-round">
                 <img src="img/youg.jpeg" alt="">
             </div>
-            <div class="card">
+            <div class="card" id="artist-round">
                 <img src="img/einaudi.jpeg" alt="">
             </div>
     </main>
 </body>
 
 <footer>
-    <img src="img/sinister.jpeg" alt="sinister-cover">
-    <h5>Sinister</h5>
-    <h6>Brano nome</h6>
+    <div class="section-left">
+        <img src="img/sinister.jpeg" alt="sinister-cover">
+        <h5>Sinister</h5>
+        <h6>Brano nome</h6>
+    </div>
+
+    <div class="section-icons">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="section-center-top">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="section-center-bottom">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="section-right">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="volume-level"></div>
+    </div>
 </footer>
 </html>
